@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 #hbg{
-    background-image: url(/assets/background/h_img.jpg);
+    background-image: url(../assets/background/h_img.jpg);
     background-size: cover;
     color: beige;
 }
@@ -19,7 +19,7 @@ body{
     line-height: 3em;
 }
 #services{
-    background-image: url(/assets/background/s_image.jpg);
+    background-image: url(../assets/background/s_image.jpg);
     background-size: cover;
     color: beige;
     margin-top: 2%;
