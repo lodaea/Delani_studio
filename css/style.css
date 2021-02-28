@@ -30,3 +30,6 @@ body{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.hidden1,.hidden2,.hidden3{
+    display: none;
+}
