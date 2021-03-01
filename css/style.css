@@ -76,3 +76,8 @@ body{
 .card .details p {
     color: #fff;
 }   
+#cont{
+    background-image: url(../assets/background/c_image.jpg);
+    padding-top: 5%;
+    color: white;
+}
