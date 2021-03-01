@@ -35,3 +35,44 @@ body{
 .hidden1,.hidden2,.hidden3{
     display: none;
 }
+#portfolio{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.card {
+    background: #2626268c;
+    overflow: hidden;
+    margin: 15px;
+    
+}
+.card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+    border: white 4px solid;
+    padding: 2%;
+}
+/*.card .iMg {
+    top: 0;
+    left: 0;
+}*/
+.card:hover .iMg {
+    top: 0;
+    left: -100%;
+}
+.card .iMg img {
+    width: 100%;
+}
+.card .details {
+    background: #1d1c1c79;
+    left: 100%;
+}
+.card:hover .details {
+    left: 0%;
+}
+.card .details p {
+    color: #fff;
+}   
